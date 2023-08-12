@@ -1,0 +1,48 @@
+git fetch --all >>>>  fetching all the changes from remote(github repo) to local
+git status >>>> it will show all the changes
+git pull --all >>>> it will pull all the changes from remote to local
+git status >>> working tree clean (your main branch local is updated)
+​
+Note: Whenever we start working on any feature, bug or merge branch, first we will update our main branch then only we will 
+make a branch out of main(like feature, bug or merge) 
+​
+now i made a branch from main branch to name feature-220723-rv-git-learning
+git checkout -b feature-220723-rv-git-learning
+​
+made all the required changes for the task in my local
+checked preview link also in all the screen sizes
+​
+git status
+git add . (staging area)
+git status
+git commit -m "meaningfull commit msg"
+git status 
+working tree clean
+git push origin feature-220723-rv-git-learning 
+​
+Go on main branch then create merge branch
+​
+git branch >>> check branch in local
+git checkout main
+git fetch --all
+git status
+git pull --all
+​
+git checkout -b merge-220723-rv-git-learning
+git push origin merge-220723-rv-git-learning
+​
+Go on github
+create new pull request 
+merge-220723-rv-git-learning <- feature-220723-rv-git-learning
+​
+check changes in file (4no. tabs)
+Merge pull request
+​
+create new PR 
+main <- merge-220723-rv-git-learning
+​
+check changes in file (4no. tabs)
+Merge pull request
+​
+feature is live
+update the client
