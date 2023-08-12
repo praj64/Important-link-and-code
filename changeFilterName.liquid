@@ -1,0 +1,6 @@
+{% comment %} This is for change filter new to old to new arrivals {% endcomment %}
+{% if option.name == 'Date, old to new' %}
+  New Arrivals
+{% else %}
+  <span aria-hidden="true">{{ option.name | escape }}</span>
+{% endif %}

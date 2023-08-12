@@ -1,0 +1,102 @@
+/* Cart drawer body */
+.wizaah-cart__body,
+.wizaah-cart__empty {
+  overflow-y: auto;
+}
+.wizaah-cart__empty {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 25px;
+  justify-content: center;
+}
+.wizaah-cartitem {
+  padding: 20px 25px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #E2E2E2;
+}
+.wizaah-cartitem__media {
+  width: 100px;
+  margin-right: 20px;
+}
+.wizaah-cartitem__media img {
+  max-width: 100%;
+  height: auto;
+}
+.wizaah-cartitem__content {
+  width: calc(100% - 120px);
+}
+.wizaah-cartitem__header,
+.wizaah-cartitem__actions {
+  gap: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.wizaah-cartitem__actions {
+  margin-top: 10px;
+}
+.wizaah-cartitem__title {
+  color: inherit;
+  text-decoration: none;
+}
+.wizaah-cartitem__remove {
+  padding: 5px;
+  cursor: pointer;
+}
+.wizaah-cartitem__remove svg {
+  width: 15px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+.wizaah-cart__quantity {
+  display: flex;
+  border: 1px solid #E2E2E2;
+}
+.wizaah-cart__quantity-button {
+  border: none;
+  background: none;
+  padding: 0 10px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.wizaah-cart__quantity-button svg {
+  width: 12px;
+  pointer-events: none;
+}
+.wizaah-cart__quantity-input {
+  width: 35px;
+  padding: 5px;
+  height: 30px;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+.wizaah-cartitem__options {
+  display: block;
+  margin-top: 5px;
+}
+.wizaah-cartitem__options select {
+  outline: none;
+  padding: 5px 10px;
+  border: 1px solid #E2E2E2;
+}
+.wizaah-cartitem__originalprice {
+  text-decoration: line-through;
+  color: gray;
+  line-height: 1.4;
+  font-size: 14px;
+}
+.wizaah-cartitem__finalprice {
+  font-weight: bold;
+  line-height: 1.4;
+}

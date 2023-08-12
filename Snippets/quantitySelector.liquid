@@ -1,0 +1,15 @@
+<wizaah-cart-quantity class="wizaah-cart__quantity" data-item-key="{{ item.key }}">
+  <button type="button" name="minus" class="wizaah-cart__quantity-button">
+    {% render 'icon' with 'minus' %}
+  </button>
+  <input
+    class="wizaah-cart__quantity-input"
+    type="number"
+    name="updates[]"
+    value="{{ item.quantity }}"
+    min="0"
+  >
+  <button type="button" name="plus" class="wizaah-cart__quantity-button">
+    {% render 'icon' with 'plus' %}
+  </button>
+</wizaah-cart-quantity>
