@@ -2,6 +2,7 @@ git fetch --all >>>>  fetching all the changes from remote(github repo) to local
 git status >>>> it will show all the changes
 git pull --all >>>> it will pull all the changes from remote to local
 git status >>> working tree clean (your main branch local is updated)
+git branch -all >>> it showing all branches
 ​
 Note: Whenever we start working on any feature, bug or merge branch, first we will update our main branch then only we will 
 make a branch out of main(like feature, bug or merge) 
