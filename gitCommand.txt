@@ -8,10 +8,12 @@ make a branch out of main(like feature, bug or merge)
 ​
 now i made a branch from main branch to name feature-220723-rv-git-learning
 git checkout -b feature-220723-rv-git-learning
+
+change the branch 
+git checkout branchname
 ​
 made all the required changes for the task in my local
 checked preview link also in all the screen sizes
-​helllo pagal ravi
 git status
 git add . (staging area)
 git status
