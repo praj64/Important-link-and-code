@@ -11,7 +11,7 @@ git checkout -b feature-220723-rv-git-learning
 ​
 made all the required changes for the task in my local
 checked preview link also in all the screen sizes
-​
+​helllo pagal ravi
 git status
 git add . (staging area)
 git status
