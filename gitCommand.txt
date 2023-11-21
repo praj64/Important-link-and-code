@@ -26,10 +26,10 @@ git push origin feature-220723-rv-git-learning
 Go on main branch then create merge branch
 ​
 git branch >>> check branch in local
-git checkout main
-git fetch --all
-git status
-git pull --all
+git checkout main >> it  will create  main branch 
+git fetch --all >>> it showing all changes which on the remote 
+git status >>> 
+git pull --all >> it will pull the changes on our local from remote
 ​
 git checkout -b merge-220723-rv-git-learning
 git push origin merge-220723-rv-git-learning
